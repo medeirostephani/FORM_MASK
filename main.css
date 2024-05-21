@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(41, 41, 41);
+}
+
+.imgBg {
+    min-height: 100%;
+    min-width: 1024px;
+    opacity: 0.6;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*a imagem será redimensionada para cobrir completamente, mantendo sua proporção. O conteúdo nunca será distorcido. As partes excedentes são então cortadas.*/
+}
+
+.container {
+    position: relative;
+    width: 480px;
+    height: 700px;
+    border-radius: 10px;
+    background-color: rgba(248, 198, 132, 0.1);
+    margin: 100px auto;
+    padding: 10px; 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px 1px rgb(41, 41, 41);
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(59, 59, 59);
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.form-campo label {
+    display: block;
+    font-weight: 500;
+    text-align: left;
+    padding-top: 12px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    width: 88%;
+    height: 32px;
+    border-radius: 6px;
+    padding: 8px;
+    opacity: 0.6;
+    color: rgb(41, 41, 41);
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    height: 32px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+#btn-enviar {
+    background-color: rgb(197, 125, 77)
+}
+
+#btn-limpar {
+    background-color: rgb(139, 139, 139);
+}
+
+#btn-limpar:hover {
+    background-color: rgb(161, 161, 161);
+    color: white;
+}
+
+#btn-enviar:hover {
+    background-color:  rgb(219, 156, 113)
+}
+
+footer p {
+    color: rgba(42, 41, 43, 0.9);
+    font-size: small;
+    text-align: center;
+    justify-content: center;
+}
